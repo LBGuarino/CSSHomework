@@ -1,0 +1,86 @@
+
+
+/* Universal Selector */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elementos básicos */
+html {
+  line-height: 1.15; /* Ajuste de line-height para mejor legibilidad */
+  -webkit-text-size-adjust: 100%; /* Ajuste de tamaño de texto en Safari */
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif; /* Fuente base común */
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Texto y enlaces */
+p, blockquote, pre, a, address, cite, code, em, strong, small, sub, sup, i, b, u, s, mark, q {
+  margin: 0;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Listas */
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Imágenes y objetos */
+img, embed, object, video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+/* Tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 0;
+}
+
+/* Formularios */
+button, input, select, textarea {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+button, input {
+  overflow: visible;
+}
+
+textarea {
+  resize: vertical; /* Solo permite redimensionar verticalmente */
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,79 @@
+ body {
+    font-family: 'Arial', sans-serif;
+    background-image: radial-gradient(circle, #f1b76a, #fcdfaa);
+    color: #561880;
+    margin: 20px;
+  }
+
+  .logo{
+    width:40vw;
+    margin-right: auto;
+
+  }
+  
+   #main-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5em;
+
+  }
+  
+  .title{
+    font-size:25px;
+    color:rebeccapurple
+  }
+
+  #principal{
+    font-size: 35px;
+    color:indigo;
+    border: 2px solid black;
+    width: fit-content;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 50px;
+
+  }
+
+  .paragraph{
+    font-size: 20px;
+    color:rgb(155, 51, 187);
+    text-align: center;
+  }
+
+  .cards{
+    border: 2px solid black;
+    width: 30em;
+    padding: 15px 20px;
+    border-radius: 50px;
+    transition: 1s;
+    margin-left: 17em;
+
+  }
+
+  .cards:hover{
+    background-color: bisque;
+  }
+
+  #cards-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    justify-content: space-evenly;
+    gap: 1em;
+    align-items: center;
+    margin-top: -28em;
+    margin-bottom: 7em;
+
+  }
+
+  #logo-cont{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+
